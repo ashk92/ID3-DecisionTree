@@ -9,6 +9,7 @@ Dependencies: WEKA (jar file)<br>
 <ul>
 <li>The test set and training set should be present in arff format.</li>
 <li>WEKA jar file should be linked or referenced.</li>
+<li>Class attribute should be the last attribute in the test/training set</li>
 </ul>
 
 <p>This implementation of ID3 Decision Tree performs binary classification. It prints the learned decision tree in a tree format.
